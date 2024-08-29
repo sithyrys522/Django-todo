@@ -1,0 +1,4 @@
+/todo-tut/
+/todo_app/migrations/
+*.pyc
+__pycache__
