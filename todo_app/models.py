@@ -4,7 +4,7 @@ from django.urls import reverse
 
 # Create your models here.
 def one_week_hence():
-    return timezone.now() + timezone.timezonedelta(days=7)
+    return timezone.now() + timezone.timedelta(days=7)
 
 class ToDoList(models.Model):
     title = models.CharField(max_length=100, unique=True)
